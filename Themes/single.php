@@ -108,12 +108,15 @@ $post_type = get_post_type();?>
   </section>
   <?php $iterator = ''; ?>
   <?php include('modules/form.php'); ?>
-  <!-- remove div (php is the original code) -->
+  
+  <!-- remove div (for the original code) -->
+  <!-- I just removed all of these lines to include line 110 to remove the ,odules/form.php -->
   <div class="flex-4-5 flex-col" width="50%">
     <center>
       <?php echo do_shortcode('[wpforms id="4988"]');?>
     </center>
   </div>
+  <!-- /remove div -->
 
 </main>
 <?php endwhile; endif; ?>
